@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background-image {
+    background-image: url('./pexels-christina-morillo-1181271.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+	background-color: grey;
+	background-blend-mode: multiply;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 72px;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 36px;
+    margin-top: 0;
+}
